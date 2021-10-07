@@ -5,6 +5,6 @@ const alien = {
     weight: '259kg'
 };
 for (const key in alien) {
-    console.log(alien[key]);
+    console.log(` ${key}   ${alien[key]}`);
 
 }
